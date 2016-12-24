@@ -1,3 +1,7 @@
+def lbs_to_kg(pounds)
+  kg = (pounds / 2.2).round(2)
+end
+
 my_name = "Zed A. Shaw"
 my_age = 35 # not a lie in 2009
 my_height = 74  # inches
@@ -5,7 +9,7 @@ my_weight = 180 # lbs
 my_eyes = 'Blue'
 my_teeth = ' White'
 my_hair = 'Brown'
-my_weight_kg = (my_weight / 2.2).round(2)
+my_weight_kg = lbs_to_kg(my_weight)
 my_height_cm = (my_height * 2.2).round(1)
 puts "Let's talk about my #{my_hair} hair"
 puts "He's #{my_weight} pounds heavy."
